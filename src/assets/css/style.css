@@ -1,0 +1,360 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+    background-color: white;
+}
+
+header {
+    padding: 10px 0;
+    background-color: #003e1f;
+    color: white;
+    position: relative; 
+}
+
+.header-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    height: 100px; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: white;
+    background-color: #931621;
+}
+
+main {
+    padding: 20px;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+/* CAROUSEL */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.carousel-image {
+    display: none;
+    width: 100%;
+}
+
+.carousel-image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-image.active {
+    display: block;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+#toggleCarousel {
+    margin: 20px;
+}
+
+/* Dropdown Menu for Settings */
+.dropdown {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content label {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content label:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+header.dark-mode {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+nav a.dark-mode {
+    color: white;
+}
+
+.carousel-container.dark-mode {
+    background-color: #1f1f1f;
+}
+
+.carousel-button.dark-mode {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+/* BAKING */
+#baking .dessert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#baking .left-align .dessert-text {
+    order: 2;
+    margin-left: 10px;
+}
+
+#baking .right-align .dessert-text {
+    order: 1;
+    margin-right: 10px;
+}
+
+#baking img {
+    max-width: 45%; 
+    height: auto;
+    margin: 0; 
+}
+
+#baking .left-align img {
+    order: 1;
+    margin-right: 10px; 
+}
+
+#baking .right-align img {
+    order: 2;
+    margin-left: 10px; 
+}
+
+.dessert-text {
+    padding: 0; 
+}
+
+/* MUSIC / Movies */
+#music_movies {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-bottom: 20px;
+}
+
+.nav-links a {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #931621;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+}
+
+#movies, #music {
+    margin-bottom: 40px;
+}
+
+p a {
+    color: #931621;
+    text-decoration: underline;
+}
+
+.media-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.media-item img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px; 
+}
+
+.media-text {
+    max-width: 50%;
+}
+
+.media-text h3 {
+    margin-top: 0;
+}
+
+/* IMAGES */
+.carousel-container img {
+    width: 1100px;
+    height: 500px;
+    object-fit: cover; 
+}
+
+.carousel-image {
+    width: 1100px;
+    height: 500px;
+    object-fit: cover; 
+}
+
+#events .events-image img {
+    width: 1100px;
+    height: 500px;
+    object-fit: cover; 
+}
+
+/* CONTACT */
+.email-link {
+    color: #931621; 
+}
+
+/* SMALL DEVICES */
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+        padding: 10px;
+    }
+
+    .carousel-container img,
+    .events-image img,
+    #baking img,
+    .media-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .dessert {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dessert-text {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* MEDIUM DEVICES */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .carousel-container img,
+  .events-image img,
+  #baking img,
+  .media-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .dessert {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dessert-text {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+
+/* LARGE DEVICES */
+@media only screen and (min-width: 992px) {
+  .carousel-container img,
+  .events-image img,
+  #baking img,
+  .media-item img {
+    width: 1100px;
+    height: 500px;
+  }
+
+  .dessert {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .dessert-text {
+    text-align: left;
+    margin: 10px;
+  }
+}
+
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+  outline: 2px solid #ffcc00; 
+  outline-offset: 2px;
+}
