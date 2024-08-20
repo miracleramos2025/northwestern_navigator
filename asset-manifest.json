@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/northwestern_navigator/static/css/main.a471d43a.css",
+    "main.js": "/northwestern_navigator/static/js/main.9a475966.js",
+    "static/media/source.png": "/northwestern_navigator/static/media/source.afc4b9aa2451d5773509.png",
+    "static/media/home_6.png": "/northwestern_navigator/static/media/home_6.0ab71ea42da2fb4762f2.png",
+    "static/media/home_2.jpeg": "/northwestern_navigator/static/media/home_2.224dc8e0e9f4874b6c5c.jpeg",
+    "static/media/org_fair.jpeg": "/northwestern_navigator/static/media/org_fair.79a1fae4cb4c35fcd04d.jpeg",
+    "static/media/dining_hall.png": "/northwestern_navigator/static/media/dining_hall.2450499e133005e13f1e.png",
+    "static/media/home_5.jpeg": "/northwestern_navigator/static/media/home_5.f2976b0ea8855d5a491a.jpeg",
+    "static/media/dining_dollars.jpeg": "/northwestern_navigator/static/media/dining_dollars.e4e52364e46abb887d39.jpeg",
+    "static/media/home_4.jpeg": "/northwestern_navigator/static/media/home_4.083957762ac000bc52d4.jpeg",
+    "static/media/meal_exchange.jpeg": "/northwestern_navigator/static/media/meal_exchange.41f252d517af7e3bfa6f.jpeg",
+    "static/media/area_events.JPG": "/northwestern_navigator/static/media/area_events.1ca0773bcb75738dc6b2.JPG",
+    "static/media/frances_searle.jpeg": "/northwestern_navigator/static/media/frances_searle.5a9d1294a311c1e19b2d.jpeg",
+    "static/media/home_1.jpeg": "/northwestern_navigator/static/media/home_1.0a96106cd26ffb8e47ad.jpeg",
+    "static/media/cta201.jpg": "/northwestern_navigator/static/media/cta201.f95bbbe4c255a2f630be.jpg",
+    "static/media/deering_library.jpeg": "/northwestern_navigator/static/media/deering_library.0d36eb1d9180d449931a.jpeg",
+    "static/media/athletics.jpeg": "/northwestern_navigator/static/media/athletics.04da184afa4ae97f97df.jpeg",
+    "static/media/mudd_library.jpeg": "/northwestern_navigator/static/media/mudd_library.34da46b47b73a24ca594.jpeg",
+    "static/media/home_3.jpeg": "/northwestern_navigator/static/media/home_3.7b924741e9201e9e507d.jpeg",
+    "static/media/main_library.jpeg": "/northwestern_navigator/static/media/main_library.0b634a1b40c9a9e39ed4.jpeg",
+    "static/media/bikes.jpeg": "/northwestern_navigator/static/media/bikes.1435d8e049dcf004cf48.jpeg",
+    "static/media/evanston_loop.jpeg": "/northwestern_navigator/static/media/evanston_loop.141e9bab09a6cec5aa3b.jpeg",
+    "static/media/zipcar.jpeg": "/northwestern_navigator/static/media/zipcar.73a88035f950a52764f2.jpeg",
+    "static/media/intercampus.jpeg": "/northwestern_navigator/static/media/intercampus.add977740b13ef6d7be4.jpeg",
+    "index.html": "/northwestern_navigator/index.html",
+    "main.a471d43a.css.map": "/northwestern_navigator/static/css/main.a471d43a.css.map",
+    "main.9a475966.js.map": "/northwestern_navigator/static/js/main.9a475966.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a471d43a.css",
+    "static/js/main.9a475966.js"
+  ]
+}
